@@ -1,4 +1,5 @@
 class Rectangle {
+
     constructor(topLeft, topRight, bottomRight, bottomLeft) {
         this.topLeft = topLeft;
         this.topRight = topRight;
@@ -18,4 +19,5 @@ class Rectangle {
         return this.bottomRight.distanceFrom(this.bottomLeft)
              * this.bottomRight.distanceFrom(this.topRight); 
     }
+
 }
